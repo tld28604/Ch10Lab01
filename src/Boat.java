@@ -1,3 +1,12 @@
+/**
+ * Boat
+ *
+ * Stores and sets basic attributes of a boat.
+ *
+ * @date    8/29/2018
+ * @author  Trevor Deligne
+ * @author  David Keaton
+ */
 public class Boat {
 
    private String name;
