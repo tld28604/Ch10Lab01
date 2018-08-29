@@ -13,9 +13,8 @@
  */
 public class BoatMain {
    /**
-    * Simply create a Boat class, and dump the contents of toString() with System.out.println(),
-    * but dynamically create and call the main methods of PowerBoat and SailBoat - as their main
-    * methods will instantiate examples for us. Leave Java to take care of our garbage collection.
+    * Create a new Boat object, and print its toString(), but use the main methods for
+    * PowerBoat and SailBoat to take care of creation and printing attributes.
     *
     * @param   args    Program arguments
     */

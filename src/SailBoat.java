@@ -45,7 +45,7 @@ public class SailBoat extends Boat{
    }
 
    /*
-    * Create an example SailBoat for BoatMain invocation.
+    * Create a new SailBoat object for BoatMain invocation, and print its toString().
     *
     * @param   args     Program arguments
     */

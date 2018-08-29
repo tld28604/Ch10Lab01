@@ -47,7 +47,7 @@ public class PowerBoat extends Boat{
 
 
    /*
-    * Create an example PowerBoat for BoatMain invocation
+    * Create a new PowerBoat object for BoatMain invocation, and print its toString().
     *
     * @param   args     Program arguments
     */
