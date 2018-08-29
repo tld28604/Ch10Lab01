@@ -9,17 +9,29 @@
  */
 public class PowerBoat extends Boat{
 
-   private double engineHP;
+   private double engineHP;   //
 
+   /*
+    * No arg constructor
+    */
    public PowerBoat() {
    }
 
+   /*
+    * Constructor for Boat class
+    * @param
+    *
+    */
    public PowerBoat(String name, double lengthOverAll, double beam, double weightCapacity,
                     double engineHP) {
       super(name, lengthOverAll, beam, weightCapacity);
       this.engineHP = engineHP;
    }
 
+   /*
+    *
+    * @return
+    */
    @Override
    public String toString() {
       return "PowerBoat{" +

@@ -8,11 +8,18 @@
  * @author  David Keaton
  */
 public class SailBoat extends Boat{
-   private double sailArea;
+   private double sailArea;      //
 
+   /*
+    * No arg constructor
+    */
    public SailBoat() {
    }
 
+   /*
+    *
+    * @param
+    */
    public SailBoat(String name, double lengthOverAll, double beam, double weightCapacity,
                    double sailArea)
    {
@@ -20,6 +27,10 @@ public class SailBoat extends Boat{
       this.sailArea = sailArea;
    }
 
+   /*
+    *
+    * @return
+    */
    @Override
    public String toString() {
       return "SailBoat{" +
@@ -27,6 +38,9 @@ public class SailBoat extends Boat{
           ", " + super.toString() + "}";
    }
 
+   /*
+    *
+    */
    public static void main(String[] args)
    {
       System.out.println(new SailBoat("Patience", 11.0, 3.5, 250.0, 45.0));
