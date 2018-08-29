@@ -38,7 +38,7 @@ public class Boat {
    /*
     * Returns the name of the boat.
     *
-    * @return  name of Boat
+    * @return  name of Boat as a String
     */
    public String getName() {
       return name;
@@ -46,6 +46,7 @@ public class Boat {
 
    /*
     * Returns the beam length of the boat
+    *
     * @return  length of the beam as a double
     */
    public double getBeam() {
