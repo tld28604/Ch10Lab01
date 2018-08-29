@@ -9,10 +9,10 @@
  */
 public class Boat {
 
-   private String name;            //
-   private double lengthOverAll;   //
-   private double beam;            //
-   private double weightCapacity;  //
+   private String name;            // The name of the boat
+   private double lengthOverAll;   // The length of the boat
+   private double beam;            // The length of the sail's beam
+   private double weightCapacity;  // The maximum allowed weight for the boat
 
    /*
    * No arg constructor for Boat class
@@ -21,9 +21,12 @@ public class Boat {
    }
 
    /*
-    * Constructor for Boat class
-    * @param
+    * Constructs the class with the given parameters.
     *
+    * @param   name              Name of the SailBoat
+    * @param   lengthOverAll     The length of the SailBoat
+    * @param   beam              The length of the sail's beam
+    * @param   weightCapacity    The amount of weight the boat can hold
     */
    public Boat(String name, double lengthOverAll, double beam, double weightCapacity) {
       this.name = name;
@@ -33,24 +36,26 @@ public class Boat {
    }
 
    /*
+    * Returns the name of the boat.
     *
-    * @return
+    * @return  name of Boat
     */
    public String getName() {
       return name;
    }
 
    /*
-    *
-    * @ return
+    * Returns the beam length of the boat
+    * @return  length of the beam as a double
     */
    public double getBeam() {
       return beam;
    }
 
    /*
+    * Creates a string that describes the attributes of the Boat.
     *
-    * @return
+    * @return  A string describing the attributes of the Boat
     */
    @Override
    public String toString() {

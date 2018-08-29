@@ -8,7 +8,7 @@
  * @author  David Keaton
  */
 public class SailBoat extends Boat{
-   private double sailArea;      //
+   private double sailArea;      // The geometric area of the SailBoat's sail
 
    /*
     * No arg constructor
@@ -17,19 +17,25 @@ public class SailBoat extends Boat{
    }
 
    /*
+    * Constructs the class with the given parameters.
     *
-    * @param
+    * @param   name              Name of the SailBoat
+    * @param   lengthOverAll     The length of the SailBoat
+    * @param   beam              The length of the sail's beam
+    * @param   weightCapacity    The amount of weight the boat can hold
+    * @param   sailArea          The geometric area of the sail
     */
-   public SailBoat(String name, double lengthOverAll, double beam, double weightCapacity,
-                   double sailArea)
+   public SailBoat(String name, double lengthOverAll, double beam,
+                   double weightCapacity, double sailArea)
    {
       super(name, lengthOverAll, beam, weightCapacity);
       this.sailArea = sailArea;
    }
 
    /*
+    * Return information about the SailBoat in addition to the Boat class derived from.
     *
-    * @return
+    * @return  A string that describes the SailBoat
     */
    @Override
    public String toString() {
@@ -39,7 +45,9 @@ public class SailBoat extends Boat{
    }
 
    /*
+    * Entry point for display of information regarding example SailBoat
     *
+    * @param   args     Program arguments
     */
    public static void main(String[] args)
    {
