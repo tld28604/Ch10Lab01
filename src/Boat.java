@@ -9,14 +9,22 @@
  */
 public class Boat {
 
-   private String name;
-   private double lengthOverAll;
-   private double beam;
-   private double weightCapacity;
+   private String name;            //
+   private double lengthOverAll;   //
+   private double beam;            //
+   private double weightCapacity;  //
 
+   /*
+   * No arg constructor for Boat class
+   */
    public Boat() {
    }
 
+   /*
+    * Constructor for Boat class
+    * @param
+    *
+    */
    public Boat(String name, double lengthOverAll, double beam, double weightCapacity) {
       this.name = name;
       this.lengthOverAll = lengthOverAll;
@@ -24,14 +32,26 @@ public class Boat {
       this.weightCapacity = weightCapacity;
    }
 
+   /*
+    *
+    * @return
+    */
    public String getName() {
       return name;
    }
 
+   /*
+    *
+    * @ return
+    */
    public double getBeam() {
       return beam;
    }
 
+   /*
+    *
+    * @return
+    */
    @Override
    public String toString() {
       return "Boat{" +
